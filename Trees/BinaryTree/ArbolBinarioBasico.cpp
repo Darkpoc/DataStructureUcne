@@ -13,7 +13,7 @@ class Nodo
 }; 
   
 /* nuevoNodo() Crea un puntero del nuevo nodo y lo devuelve */
-struct Nodo* nuevoNodo(int dato) 
+Nodo* nuevoNodo(int dato) 
 { 
    
  Nodo* nodo = new Nodo(dato); 
